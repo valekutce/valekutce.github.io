@@ -121,8 +121,8 @@ header {
   width: 30px;
   height: 20px;
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 15px;
+  right: 11px;
   cursor: pointer;
   display: none;
   z-index: 100;
@@ -230,12 +230,18 @@ section#Services {
   line-height: 110px;
   margin-right: 20px;
 }
+.block_Services .block_Services-img img {
+  transition: 0.3s;
+}
 .block_Services .block_Services-text {
   width: 69%;
 }
 .block_Services .block_Services-text h4 {
   color: #1eacc7;
   font-size: 17px;
+}
+.block_Services:hover .block_Services-img img {
+  transform: scale(1.1);
 }
 
 section#Mobile_app {

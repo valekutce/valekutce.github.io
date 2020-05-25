@@ -166,7 +166,11 @@
 		flex-direction: column;
 	}
 	.block_Services .block_Services-img{
-		margin-bottom: 20px;
+		margin: 20px auto;
+	}
+	.block_Services .block_Services-text{
+		width: 100%;
+		text-align: center;
 	}
 }
 @media only screen and (max-width: 438px){
