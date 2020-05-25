@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/*для больших экранов*/
+@media only screen and (max-width: 1200px) {
+  header .header_logo .wrap_tel button {
+    width: 34%;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  header .header_logo .wrap_tel button {
+    width: 34%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .header_top-menu nav a {
+    padding: 10px 11px;
+  }
+
+  .header_main-title h1 {
+    line-height: 60px;
+  }
+
+  footer .footer_block_links .block_big_links a {
+    font-size: 0.93rem;
+  }
+}
+/*Medium Для средних экранов*/
+@media (max-width: 992px) {
+  header .header_top-menu nav {
+    padding: 10px 0px;
+  }
+
+  header .header_top-menu nav a {
+    padding: 10px 0px;
+    border-right: none;
+  }
+
+  .goog_icon img {
+    width: 100%;
+  }
+
+  footer .footer_block_links .block_big_links a {
+    font-size: 0.8rem;
+  }
+}
+/*Smal для маленьких экранов*/
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+
+  .header_top-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    width: 60%;
+    background-color: #212121;
+    z-index: 100;
+    transition: 0.5s;
+  }
+
+  .menu_active {
+    left: 0;
+  }
+
+  header .header_top-menu nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  header .header_top-menu nav a {
+    display: block;
+    font-size: 1.5rem;
+    padding-left: 5px;
+  }
+
+  header .header_logo .wrap_tel button {
+    width: 100%;
+  }
+
+  .header_logo .tel {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .header_logo .tel span:first-child {
+    display: none;
+  }
+
+  .header_logo .tel span:last-child {
+    font-size: 23px;
+  }
+
+  .header_logo .padd .col {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .burg {
+    display: block;
+  }
+
+  .wrap_tel {
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .header_main-title h1 {
+    font-size: 55px;
+  }
+
+  .header_main-title h1 span {
+    font-size: 25px;
+    line-height: 40px;
+    display: block;
+  }
+
+  section#the_choice {
+    padding: 55px 0 1px 0;
+  }
+
+  section#the_choice img {
+    width: 100%;
+  }
+
+  section#Services {
+    padding: 70px 0 0 0;
+  }
+
+  footer .block_social {
+    justify-content: center;
+  }
+
+  footer .goog_icon img {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 578px) {
+  html {
+    font-size: 12px;
+  }
+
+  .header_main-title {
+    padding-bottom: 45px;
+  }
+
+  .header_main-title p {
+    text-align: justify;
+  }
+}
+/*Exstra Smal для супер маленьких экранов*/
+@media only screen and (max-width: 480px) {
+  .header_main-title h1 {
+    font-size: 40px;
+  }
+
+  .header_main-title h1 span {
+    font-size: 20px;
+  }
+
+  section#the_choice {
+    padding: 55px 0 0 0;
+    min-height: 700px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header .header_logo .tel span:last-child {
+    font-size: 21px;
+  }
+
+  section#Services {
+    padding: 70px 0 0px 0;
+  }
+
+  .block_Services {
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .block_Services .block_Services-img {
+    margin: 20px auto;
+  }
+
+  .block_Services .block_Services-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 438px) {
+  header .header_logo .tel {
+    margin-right: 0;
+  }
+
+  header .header_logo .tel span:last-child {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  header .header_logo .padd {
+    padding: 10px;
+  }
+
+  .header_main-title p {
+    display: none;
+  }
+}
+/*Для Iphon*/
